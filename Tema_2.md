@@ -28,7 +28,7 @@
 print(3 > 4)
 ```
 ### Результат.
-![Меню](https://github.com/vnika2003/Software_Engineering/blob/Тема_2/pic/Lab2_1.png)
+![Меню](https://github.com/Davishir/Software_engineering/blob/main/img/tema_2/Capture001.png)
 
 ## Выводы
 
