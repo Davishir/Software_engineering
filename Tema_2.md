@@ -43,7 +43,7 @@ print(a, b,c)
 
 ```
 ### Результат.
-![Меню](https://github.com/Davishir/Software_engineering/blob/main/img/tema_2/Capture001.png)
+![Меню](https://github.com/Davishir/Software_engineering/blob/main/img/tema_2/Capture002.png)
 
 ## Выводы
 
@@ -56,7 +56,7 @@ print(a, b,c)
 a = int (input("Введите целое число: "))
 ```
 ### Результат.
-![Меню](https://github.com/Davishir/Software_engineering/blob/main/img/tema_2/Capture001.png)
+![Меню](https://github.com/Davishir/Software_engineering/blob/main/img/tema_2/Capture003.png)
 
 ## Выводы
 
@@ -71,7 +71,7 @@ print(st*4)
 
 ```
 ### Результат.
-![Меню](https://github.com/Davishir/Software_engineering/blob/main/img/tema_2/Capture001.png)
+![Меню](https://github.com/Davishir/Software_engineering/blob/main/img/tema_2/Capture004.png)
 
 ## Выводы
 
@@ -86,7 +86,7 @@ print(f"Сегодня {day} {month} {year}.", end=' Всего хорошего
 
 ```
 ### Результат.
-![Меню](https://github.com/Davishir/Software_engineering/blob/main/img/tema_2/Capture001.png)
+![Меню](https://github.com/Davishir/Software_engineering/blob/main/img/tema_2/Capture005.png)
 
 ## Выводы
 
@@ -99,7 +99,7 @@ print(f"Сегодня {day} {month} {year}.", end=' Всего хорошего
 print('Hello', 'World', sep=' my ')
 ```
 ### Результат.
-![Меню](https://github.com/Davishir/Software_engineering/blob/main/img/tema_2/Capture001.png)
+![Меню](https://github.com/Davishir/Software_engineering/blob/main/img/tema_2/Capture006.png)
 
 ## Выводы
 
@@ -114,7 +114,7 @@ print(len(sentence))
 
 ```
 ### Результат.
-![Меню](https://github.com/Davishir/Software_engineering/blob/main/img/tema_2/Capture001.png)
+![Меню](https://github.com/Davishir/Software_engineering/blob/main/img/tema_2/Capture007.png)
 
 ## Выводы
 
@@ -129,7 +129,7 @@ print(sentence.lower())
 
 ```
 ### Результат.
-![Меню](https://github.com/Davishir/Software_engineering/blob/main/img/tema_2/Capture001.png)
+![Меню](https://github.com/Davishir/Software_engineering/blob/main/img/tema_2/Capture008.png)
 
 ## Выводы
 
@@ -145,7 +145,7 @@ a += int(input())
 print(a)
 ```
 ### Результат.
-![Меню](https://github.com/Davishir/Software_engineering/blob/main/img/tema_2/Capture001.png)
+![Меню](https://github.com/Davishir/Software_engineering/blob/main/img/tema_2/Capture009.png)
 
 ## Выводы
 
@@ -158,7 +158,7 @@ print(a)
 print(input().count(' ') + 1)
 ```
 ### Результат.
-![Меню](https://github.com/Davishir/Software_engineering/blob/main/img/tema_2/Capture001.png)
+![Меню](https://github.com/Davishir/Software_engineering/blob/main/img/tema_2/Capture010.png)
 
 ## Выводы
 
