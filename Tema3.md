@@ -89,7 +89,8 @@ else:
 
 ```
 ### Результат.
-![Меню](https://github.com/Davishir/Software_engineering/blob/main/img/tema_2/Capture004.png)
+![Меню](https://github.com/Davishir/Software_engineering/blob/Tema_3/img/tema_3/Capture041.png)
+![Меню](https://github.com/Davishir/Software_engineering/blob/Tema_3/img/tema_3/Capture042.png)
 
 ## Выводы
 Программа выполняет действия:
