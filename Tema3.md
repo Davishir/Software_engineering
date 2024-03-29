@@ -62,7 +62,7 @@ else:
     print("Число находится в диапазоне от 6 до 10")
 ```
 ### Результат.
-![Меню](https://github.com/Davishir/Software_engineering/blob/main/img/tema_2/Capture003.png)
+![Меню] (https://github.com/Davishir/Software_engineering/blob/Tema_3/img/tema_3/Capture003.png)
 
 ## Выводы
 
