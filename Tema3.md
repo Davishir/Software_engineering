@@ -24,7 +24,7 @@ for i in range(1, 32):
     print(i)
 ```
 ### Результат.
-![Меню](https://github.com/Davishir/Software_engineering/blob/main/img/tema_3/Capture001.png)
+![Меню](https://github.com/Davishir/Software_engineering/blob/Tema_3/img/tema_3/Capture001.png)
 
 ## Выводы
 
