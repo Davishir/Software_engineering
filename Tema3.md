@@ -40,7 +40,7 @@ for letter in reversed(phrase):
 
 ```
 ### Результат.
-![Меню](https://github.com/Davishir/Software_engineering/blob/main/img/tema_2/Capture002.png)
+![Меню](https://github.com/Davishir/Software_engineering/blob/Tema_3/img/tema_3/Capture002.png)
 
 ## Выводы
 
