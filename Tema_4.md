@@ -52,7 +52,7 @@ if __name__ == '__main__':
     print(f"Program execution time {timecosts}")
 ```
 ### Результат.
-![Меню](https://github.com/Davishir/Software_engineering/tree/Tema_4)
+![Меню](https://github.com/Davishir/Software_engineering/blob/Tema_4/img/tema_4/Capture001.png)
 
 ## Выводы
 
