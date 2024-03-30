@@ -80,7 +80,7 @@ if __name__ == '__main__':
 
 ```
 ### Результат.
-![Меню](https://github.com/Davishir/Software_engineering/blob/Tema_3/img/tema_3/Capture002.png)
+![Меню](https://github.com/Davishir/Software_engineering/blob/Tema_4/img/tema_4/Capture002.png)
 
 ## Выводы
 
@@ -103,7 +103,7 @@ print(f"Финальное время: {current_time.strftime('%H:%M:%S')}")
 
 ```
 ### Результат.
-![Меню](https://github.com/Davishir/Software_engineering/blob/Tema_3/img/tema_3/Capture003.png)
+![Меню](https://github.com/Davishir/Software_engineering/blob/Tema_4/img/tema_4/Capture003.png)
 
 ## Выводы
  Цикл выполняется 5 раз. Вывод текущего времени. Задержка программы на 1 секунду. В конце выводится текущее время после завершения цикла.
@@ -127,7 +127,7 @@ if __name__ == '__main__':
     print(f'Среднее арифметическое: {avg}')
 ```
 ### Результат.
-![Меню](https://github.com/Davishir/Software_engineering/blob/Tema_3/img/tema_3/Capture041.png)
+![Меню](https://github.com/Davishir/Software_engineering/blob/Tema_4/img/tema_4/Capture004.png)
 
 ## Выводы
 `*args` в определении функции `calculate_average` означает, что функция принимает переменное количество аргументов в виде кортежа `args`. Если передан пустой кортеж, функция вернет 0. Иначе производится суммирование всех значений и вычисление среднего арифметического. В блоке `if __name__ == '__main__':` создается список чисел для демонстрации работы программы.
@@ -160,7 +160,8 @@ def calculate_area(a, b, c):
 
 ```
 ### Результат.
-![Меню](https://github.com/Davishir/Software_engineering/blob/Tema_3/img/tema_3/Capture005.png)
+![Меню](https://github.com/Davishir/Software_engineering/blob/Tema_4/img/tema_4/Capture051.png)
+![Меню](https://github.com/Davishir/Software_engineering/blob/Tema_4/img/tema_4/Capture052.png)
 
 ## Выводы
 
