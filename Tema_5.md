@@ -33,7 +33,7 @@ print("Сколько разных людей посетило ресторан:
 print("Какой работник посетил ресторан больше всех раз: ", most_frequent_worker)
 ```
 ### Результат.
-![Меню](https://github.com/Davishir/Software_engineering/blob/Tema_4/img/tema_4/Capture001.png)
+![Меню](https://github.com/Davishir/Software_engineering/blob/Tema_5/img/tema_5/Capture001.png)
 
 ## Выводы
 
@@ -57,7 +57,7 @@ print("Все результаты, начиная с 10: ", results_from_10 [9:
 
 ```
 ### Результат.
-![Меню](https://github.com/Davishir/Software_engineering/blob/Tema_4/img/tema_4/Capture002.png)
+![Меню](https://github.com/Davishir/Software_engineering/blob/Tema_5/img/tema_5/Capture002.png)
 
 ## Выводы
 
@@ -94,7 +94,7 @@ print("Максимальная площадь треугольника:", max(a
 
 ```
 ### Результат.
-![Меню](https://github.com/Davishir/Software_engineering/blob/Tema_4/img/tema_4/Capture003.png)
+![Меню](https://github.com/Davishir/Software_engineering/blob/Tema_5/img/tema_5/Capture003.png)
 
 ## Выводы
 Функция для вычисления площади треугольника по длинам сторон.Полупериметр. Формула Герона для площади треугольника. Собираем треугольники из минимального и максимального значений. Выводим только минимальную и максимальную площадь.
@@ -121,7 +121,7 @@ for i, updated_grades in enumerate(updated_grades_lists, 1):
 
 ```
 ### Результат.
-![Меню](https://github.com/Davishir/Software_engineering/blob/Tema_4/img/tema_4/Capture004.png)
+![Меню](https://github.com/Davishir/Software_engineering/blob/Tema_5/img/tema_5/Capture004.png)
 
 ## Выводы
 Функция для удаления двоек и замены троек на четверки.Удаляем двойки.Заменяем тройки на четверки. Списки оценок. Обрабатываем каждый список оценок. Вывод результатов
@@ -151,8 +151,7 @@ print(res_2)
 print(res_3)
 ```
 ### Результат.
-![Меню](https://github.com/Davishir/Software_engineering/blob/Tema_4/img/tema_4/Capture051.png)
-![Меню](https://github.com/Davishir/Software_engineering/blob/Tema_4/img/tema_4/Capture052.png)
+![Меню](https://github.com/Davishir/Software_engineering/blob/Tema_5/img/tema_5/Capture005.png)
 
 ## Выводы
 Функция для преобразования чисел в множество с учетом правила. Списки натуральных чисел. Обработка каждого списка и вывод результатов.
