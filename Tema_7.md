@@ -39,7 +39,7 @@ print(f"Самое часто встречающееся слово: {most_commo
 
 ```
 ### Результат.
-![Меню](https://github.com/Dar13lol/Software_Engineering/blob/Laba_7/png_7/1.png).
+![Меню](https://github.com/Davishir/Software_engineering/blob/Tema_7/img/tema_7/Capture001.png)
 
 
 ## Выводы
@@ -85,7 +85,7 @@ while True:
 
 ```
 ### Результат.
-![Меню](https://github.com/Dar13lol/Software_Engineering/blob/Laba_7/png_7/2.png).
+![Меню](https://github.com/Davishir/Software_engineering/blob/Tema_7/img/tema_7/Capture002.png)
 
 ## Выводы
 Создание файла для хранения расходов, если его нет.
@@ -112,10 +112,10 @@ count_statistics(file_path)
 
 ```
 ### Результат.
-![Меню](https://github.com/Dar13lol/Software_Engineering/blob/Laba_7/png_7/3.png).
+![Меню](https://github.com/Davishir/Software_engineering/blob/Tema_7/img/tema_7/Capture003.png)
 
 ## Выводы
-Подсчет количества букв латинского алфавита. Подсчет числа слов. Подсчет числа строк.  Добавляем 1, т.к. последняя строка может быть без \n
+Подсчет количества букв латинского алфавита. Подсчет числа слов. Подсчет числа строк.  
   
 ## Самостоятельная работа №4
 ### Напишите программу, которая получает на вход предложение, выводит его в терминал
@@ -138,8 +138,7 @@ censored_output = censor_sentence(input_sentence, banned_words)
 print(censored_output)
 ```
 ### Результат.
-![Меню](https://github.com/Dar13lol/Software_Engineering/blob/Laba_7/png_7/4.png).
-
+![Меню](https://github.com/Davishir/Software_engineering/blob/Tema_7/img/tema_7/Capture004.png)
 ## Выводы
 
 Получаем предложение.
@@ -164,7 +163,7 @@ print(longest_words('input.txt'))
 
 ```
 ### Результат.
-![Меню](https://github.com/Dar13lol/Software_Engineering/blob/Laba_7/png_7/5.png).
+![Меню](https://github.com/Davishir/Software_engineering/blob/Tema_7/img/tema_7/Capture005.png)
 
 ## Выводы
 
