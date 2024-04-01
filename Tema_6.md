@@ -32,7 +32,7 @@ print("Кортеж из введенных чисел:", numbers_tuple)
 
 ```
 ### Результат.
-![Меню](https://github.com/Dar13lol/Software_Engineering/blob/Laba_6/png_6/1.png).
+![Меню](https://github.com/Davishir/Software_engineering/blob/Tema_6/img/tema_6/Capture001.png)
 
 
 ## Выводы
@@ -59,7 +59,7 @@ for idx, tup in enumerate(inputs):
 
 ```
 ### Результат.
-![Меню](https://github.com/Dar13lol/Software_Engineering/blob/Laba_6/png_6/2.png).
+![Меню](https://github.com/Davishir/Software_engineering/blob/Tema_6/img/tema_6/Capture002.png)
 
 ## Выводы
 Примеры входных данных и ожидаемых результатов. Проход по каждому примеру.
@@ -89,7 +89,7 @@ for key in sorted(result_dict.keys()):
 
 ```
 ### Результат.
-![Меню](https://github.com/Dar13lol/Software_Engineering/blob/Laba_6/png_6/3.png).
+![Меню](https://github.com/Davishir/Software_engineering/blob/Tema_6/img/tema_6/Capture003.png)
 
 ## Выводы
 Создаем словарь, содержащий количество каждой цифры в строке. Получаем три самые часто встречаемые цифры в порядке убывания их количества. Создаем словарь из топ-3 самых часто встречаемых чисел. Пример строки с числами. Получаем словарь из трех самых часто встречаемых чисел.
@@ -124,7 +124,7 @@ print(find_employee_records((1, 2, 8, 5, 1, 2, 9), 8))
 
 ```
 ### Результат.
-![Меню](https://github.com/Dar13lol/Software_Engineering/blob/Laba_6/png_6/4.png).
+![Меню](https://github.com/Davishir/Software_engineering/blob/Tema_6/img/tema_6/Capture004.png)
 
 ## Выводы
 Примеры. Результат: (2, 3, 2). Результат: (3, 4, 5).  Результат: (6, 1, 2, 9).
@@ -147,7 +147,7 @@ if __name__ == '__main__':
 
 ```
 ### Результат.
-![Меню](https://github.com/Dar13lol/Software_Engineering/blob/Laba_6/png_6/5.png).
+![Меню](https://github.com/Davishir/Software_engineering/blob/Tema_6/img/tema_6/Capture005.png)
 
 ## Выводы
 
