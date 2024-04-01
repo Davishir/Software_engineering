@@ -145,7 +145,7 @@ print(censored_output)
 Получаем предложение.
   
 ## Самостоятельная работа №5
-### Документ «text_for_laba.txt» содержит некоторый текст
+### Документ «input.txt» содержит некоторый текст. Вывести последнее слово.
 
 
 ```python
@@ -160,7 +160,7 @@ def longest_words(file):
         if len(sought_words) == 1:
             return sought_words[0]
         return sought_words
-print(longest_words('text_for_laba.txt'))
+print(longest_words('input.txt'))
 
 ```
 ### Результат.
