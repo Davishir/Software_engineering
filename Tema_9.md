@@ -91,7 +91,7 @@ gardener.harvest()
 
 ```
 ### Результат.
-![Меню](https://github.com/Dar13lol/Software_Engineering/blob/Laba_9/png_9/1.png).
+![Меню](https://github.com/Davishir/Software_engineering/blob/Tema_9/img/tema_9/Capture001.png)
 
 
 ## Выводы
