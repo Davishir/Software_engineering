@@ -1,6 +1,6 @@
 # Тема 8. Введение в ООП.
 Отчет по Теме #8 выполнил(а):
-- Антохина Дарья Сергеевна
+- Ширыкалова Дарья Витальевна
 - ИНО ЗБ ПОАС-22-1
 
 | Задание |  Сам_раб |
@@ -20,10 +20,10 @@
 ### Самостоятельно создайте класс и его объект.
 
 ```python
-class Animals: #класс
-    def __init__(self,year):
-        self.year=year
-duck = Animals(3) #объект
+class Case: 
+    def __init__(self,color):
+        self.color=color
+pensil = Case("blue") 
 
 ```
 ### Результат.
@@ -31,43 +31,42 @@ duck = Animals(3) #объект
 
 
 ## Выводы
-
-Все условия задания выполнены!
+Класс пенал. Объект ручка.
 
 ## Самостоятельная работа №2
 ### Самостоятельно создайте атрибуты и методы для ранее созданного класса.
 
 ```python
-class Animals:
-    def __init__(self,year,color):
-        self.year=year
+class Case:
+    def __init__(self,category,color):
+        self.category=category
         self.color=color
-duck = Animals(3,"black")
-print(duck.year)
-print(duck.color)
+pensil = Case("Ручка","black")
+print(pensil.category)
+print(pensil.color)
 ```
 ### Результат.
 ![Меню](https://github.com/Dar13lol/Software_Engineering/blob/Laba_8/png_8/2.png).
 
 ## Выводы
 
-Все условия задания выполнены!
+Атрибуты: категория,цвет.
   
 ## Самостоятельная работа №3
 ### Самостоятельно реализуйте наследование, продолжая работать ранее созданным классом. 
 
 ```python
 
-class Animals:
-    def __init__(self,name):
-        self.name=name
+class Case:
+    def __init__(self,color):
+        self.color=color
 
-class Duck(Animals): ##наследование класса Animals
+class Pen(Case): 
     def eat(self):
-        print(f"{self.name} eats")
+        print(f"{self.color} eats")
 
-duck = Animals("KEVIN")
-print(duck.name)
+pencil = Case("Green")
+print(pencil.color)
 
 
 ```
@@ -76,24 +75,24 @@ print(duck.name)
 
 ## Выводы
 
-Все условия задания выполнены!
+наследование класса Case
   
 ## Самостоятельная работа №4
 ### Самостоятельно реализуйте инкапсуляцию
 
 ```python
-class Animals:
-    def __init__(self, name, years):
-        self._name = name  # имя
-        self._years = years  # возраст
+class Case:
+    def __init__(self, category, color):
+        self._category = category 
+        self._color = color  
 
 
     def eat(self):
-        print(f" {self._name} is eating, he is {self._years} years old")
+        print(f" В пеняле лежит {self._category} она {self._color} цвета")
 
-duck = Animals("KEVIN", 3)
-print(duck._name)
-duck.eat()
+pencil = Case("Ручка", "Синяя")
+print(pencil._category)
+pencil.eat()
 
 ```
 ### Результат.
@@ -101,39 +100,38 @@ duck.eat()
 
 ## Выводы
 
-Все условия задания выполнены!
+В пенале лежит ручка она синего цвета.
   
 ## Самостоятельная работа №5
 ### Самостоятельно реализуйте полиморфизм. 
 
 
 ```python
-class Animals:
+class Case:
     def area(self):
         pass
-class Duck(Animals):  ##наследование класса Animals
-    def __init__(self, name, years):
-        self.name = name  # имя
-        self.years = years  # возраст
-duck = Duck("Donald", 5)
+class Pen(Case): 
+    def __init__(self, category, color):
+        self.category = category 
+        self.color = color  
+pencil = Pen("Ручка", "Синяя")
 
-print("Duck name:", duck.name)
-print("Duck age:", duck.years)
+print("Pen category:", pencil.category)
+print("Pen color:", pencil.color)
 
-class Cat(Animals):  ##наследование класса Animals
+class Marker(Case): 
     def __init__(self, color):
-        self.color = color  # цвет
+        self.color = color  
 
-cat = Cat("White")
-print("Cat color:", cat.color)
+mark = Marker("Pink")
+print("Marker color:", mark.color)
 
 ```
 ### Результат.
 ![Меню](https://github.com/Dar13lol/Software_Engineering/blob/Laba_8/png_8/5.png).
 
 ## Выводы
-
-Все условия задания выполнены!
+Наследование класса Case
   
 
 
