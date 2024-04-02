@@ -1,6 +1,6 @@
 # Тема 9. Концепции и принципы ООП.
 Отчет по Теме #9 выполнил(а):
-- Антохина Дарья Сергеевна
+- Ширыкалова Дарья Витальевна
 - ИНО ЗБ ПОАС-22-1
 
 | Задание |  Сам_раб |
@@ -17,94 +17,78 @@
 ### Задание Садовник и помидоры
 
 ```python
-class Tomato: #создание класса
-    states = {'Семяна': 0, 'Цветение': 1, 'Зреет': 2, 'Спелый': 3}
-    def __init__(self, index):  #инициализация объекта
-        self._index = index
-        self._state = self.states['Семяна']
+class Tomato:
+    states = {
+        0: "растет",
+        1: "цветет",
+        2: "зеленый",
+        3: "красный"
+    }
 
-    def grow(self):  # увеличивает стадию созревания
-        if self._state < 3:
-            self._state += 1
+    def __init__(self, index):
+        self._index = index  
+        self._state = self.states[0]  
+
+    def grow(self):
+        if self._state != self.states[len(self.states) - 1]:  
+            current_state_index = list(self.states.values()).index(self._state)
+            self._state = self.states[current_state_index + 1]  
 
     def is_ripe(self):
-        return True if self._state == 3 else False
+        return self._state == self.states[len(self.states) - 1]  
 
-class TomatoBush:  #создание класса
-
+class TomatoBush:
     def __init__(self, num):
-        self.tomatoes = [Tomato(index) for index in range(1, num + 1)]
+        self.tomatoes = [Tomato(index) for index in range(1, num + 1)]  
 
     def grow_all(self):
         for tomato in self.tomatoes:
-            tomato.grow()
+            tomato.grow()  
 
-    def all_are_ripe(self): # проверяет помидоры на зрелость
-        return all([tomato.is_ripe() for tomato in self.tomatoes])
+    def all_are_ripe(self):
+        return all([tomato.is_ripe() for tomato in self.tomatoes])  
 
     def give_away_all(self):
-        self.tomatoes = []
+        self.tomatoes = []  
 
-
-class Gardener:  #создание класса
-
+class Gardener:
     def __init__(self, name, plant):
-        self.name = name
-        self._plant = plant
+        self.name = name  
+        self.plant = plant  
 
     def work(self):
-        self._plant.grow_all()
+        self.plant.grow_all()  
 
-    def harvest(self): # проверяет, все ли помидоры зрелые
-        if self._plant.all_are_ripe():
-            print('Урожай собран!')
-            self._plant.give_away_all()
+    def harvest(self):
+        if self.plant.all_are_ripe():
+            self.plant.give_away_all()  
         else:
-            print('Томаты еще не дозрели')
+            print("Еще не все помидоры созрели, продолжайте ухаживать за ними.")  
 
     @staticmethod
     def knowledge_base():
-        print('Справка по садоводству:')
-        print('1. Не забывайте регулярно поливать и подкармливать растения')
-        print('2. Определите правильное расстояние между растениями, чтобы они не мешали друг другу в росте')
-        print('3. Удалите поврежденные листья и плоды, чтобы предотвратить распространение болезней')
+        print("База знаний по садоводству:\n...")  
 
-    # Вызов справки по садоводству
+# Тесты
+# 1
+Gardener.knowledge_base()  
 
+# 2
+bush = TomatoBush(5) 
+gardener = Gardener("Вася", bush)  
 
-Gardener.knowledge_base()
+# 3
+gardener.work()  
+# 4
+gardener.harvest()  
 
-# Создание объектов классов TomatoBush и Gardener
-bush = TomatoBush(5)
-gardener = Gardener('KEVIN', bush)
-
-# Уход за кустом с помидорами
+# 5
+gardener.work()  
 gardener.work()
 gardener.work()
-gardener.work()
+gardener.harvest()  
 
 
-def harvest_tomatoes(unripe=True):
-    if unripe:
-        print("Попробуйте собрать урожай, когда томаты дозреют")
-    else:
-        print("Томаты уже спелые, можно начинать сбор урожая")
-
-
-# Проверка на сбор урожая, когда томаты еще не спелые
-harvest_tomatoes(unripe=True)
-
-# Сбор урожая
-gardener.harvest()
-
-# Продолжение ухода за кустом, пока томаты не дозреют
-gardener.work()
-gardener.harvest()
-gardener.work()
-
-# Сбор урожая после дозревания всех томатов
-gardener.work()
-gardener.harvest()
 ```
 ### Результат.
 ![Меню](https://github.com/Dar13lol/Software_Engineering/blob/Laba_9/png_9/1.png).
@@ -112,7 +96,8 @@ gardener.harvest()
 
 ## Выводы
 
-Все условия задания выполнены!
+Инициализация индекса помидора. Инициализация состояния помидора. Проверка, не достиг ли помидор последнего состояния. Увеличение состояния помидора на один уровень. Проверка, созрел ли помидор.Создание списка помидоров. Увеличение состояния всех помидоров.Проверка, все ли помидоры созрели. Отдача собранных помидоров.Инициализация имени садовника. Инициализация объекта класса TomatoBush. Работа садовника (увеличение состояния всех помидоров). Сбор созревших помидоров. Вывод сообщения, если не все помидоры созрели. Вывод базы знаний о садоводстве. Вывод базы знаний. Создание коллекции помидоров. Создание садовника. Садовник работает. Садовник собирает созревшие помидоры. Садовник продолжает работу. Садовник собирает помидоры еще раз.
+
   
 
 
