@@ -27,7 +27,7 @@ pensil = Case("blue")
 
 ```
 ### Результат.
-![Меню](https://github.com/Dar13lol/Software_Engineering/blob/Laba_8/png_8/1.png).
+![Меню](https://github.com/Davishir/Software_engineering/blob/Tema_8/img/tema_8/Capture001.png)
 
 
 ## Выводы
@@ -46,7 +46,7 @@ print(pensil.category)
 print(pensil.color)
 ```
 ### Результат.
-![Меню](https://github.com/Dar13lol/Software_Engineering/blob/Laba_8/png_8/2.png).
+![Меню](https://github.com/Davishir/Software_engineering/blob/Tema_8/img/tema_8/Capture002.png)
 
 ## Выводы
 
@@ -71,7 +71,7 @@ print(pencil.color)
 
 ```
 ### Результат.
-![Меню](https://github.com/Dar13lol/Software_Engineering/blob/Laba_8/png_8/3.png).
+![Меню](https://github.com/Davishir/Software_engineering/blob/Tema_8/img/tema_8/Capture003.png)
 
 ## Выводы
 
@@ -96,7 +96,7 @@ pencil.eat()
 
 ```
 ### Результат.
-![Меню](https://github.com/Dar13lol/Software_Engineering/blob/Laba_8/png_8/4.png).
+![Меню](https://github.com/Davishir/Software_engineering/blob/Tema_8/img/tema_8/Capture004.png)
 
 ## Выводы
 
@@ -128,7 +128,7 @@ print("Marker color:", mark.color)
 
 ```
 ### Результат.
-![Меню](https://github.com/Dar13lol/Software_Engineering/blob/Laba_8/png_8/5.png).
+![Меню](https://github.com/Davishir/Software_engineering/blob/Tema_8/img/tema_8/Capture005.png)
 
 ## Выводы
 Наследование класса Case
