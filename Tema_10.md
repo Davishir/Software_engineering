@@ -66,11 +66,11 @@ print()
 
 try:
     # Чтение из файла с информацией
-    with open("data.txt", "r") as file:
+    with open("input.txt", "r") as file:
         data = file.read()
         if not data:
             raise Exception("Файл пустой")
-        print("Данные из файла 'data.txt':")
+        print("Данные из файла 'input.txt':")
         print(data)
 except Exception as e:
     print("Ошибка:", e)
