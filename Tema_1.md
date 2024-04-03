@@ -31,7 +31,7 @@
 ### 2.1. Установка
 
 ### Результат.
-![Меню](https://github.com/Dar13lol/Software_Engineering/blob/Laba_1/png_1/2.1.png).
+![Меню](https://github.com/Davishir/Software_engineering/blob/Tema_1/img/tema_1/Capture001.png)
 
 ## Выводы
 Установка произведена !
@@ -40,7 +40,7 @@
 ### 2.2. Настройка
 
 ### Результат.
-![Меню](https://github.com/Dar13lol/Software_Engineering/blob/Laba_1/png_1/2.2.png).
+![Меню](https://github.com/Davishir/Software_engineering/blob/Tema_1/img/tema_1/Capture002.png)
 
 ## Выводы
 Настройка произведена !
@@ -49,7 +49,7 @@
 ### 2.3. Создание нового репозитория
 
 ### Результат.
-![Меню](https://github.com/Dar13lol/Software_Engineering/blob/Laba_1/png_1/2.3.png).
+![Меню](https://github.com/Davishir/Software_engineering/blob/Tema_1/img/tema_1/Capture003.png)
 
 ## Выводы
 Создали новый репозиторий !
@@ -58,7 +58,7 @@
 ### 2.4. Подготовка файлов
 
 ### Результат.
-![Меню](https://github.com/Dar13lol/Software_Engineering/blob/Laba_1/png_1/2.4.png).
+![Меню](https://github.com/Davishir/Software_engineering/blob/Tema_1/img/tema_1/Capture004.png)
 
 ## Выводы
 Создали файл !
@@ -66,15 +66,14 @@
 ### 2.5. Фиксация изменений
 
 ### Результат.
-![Меню](https://github.com/Dar13lol/Software_Engineering/blob/Laba_1/png_1/2.5.png).
-
+![Меню](https://github.com/Davishir/Software_engineering/blob/Tema_1/img/tema_1/Capture005.png)
 ## Выводы
 Сделали коммит !
 ## Самостоятельная работа №6
 ### 2.6. Подключение к удаленному репозиторию
 
 ### Результат.
-![Меню](https://github.com/Dar13lol/Software_Engineering/blob/Laba_1/png_1/2.6.png).
+![Меню](https://github.com/Davishir/Software_engineering/blob/Tema_1/img/tema_1/Capture006.png)
 
 ## Выводы
 Подключились к удаленному репозиторию !
