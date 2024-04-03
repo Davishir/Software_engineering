@@ -81,7 +81,7 @@
 ### 2.7. Ветвление
 
 ### Результат.
-![Меню](https://github.com/Dar13lol/Software_Engineering/blob/Laba_1/png_1/2.7.png).
+![Меню](https://github.com/Davishir/Software_engineering/blob/Tema_1/img/tema_1/Capture007.png)
 
 ## Выводы
 Ветвление
@@ -89,7 +89,7 @@
 ### 2.8. Особенности применения «Фетч»
 
 ### Результат.
-![Меню](https://github.com/Dar13lol/Software_Engineering/blob/Laba_1/png_1/2.8.png).
+![Меню](https://github.com/Davishir/Software_engineering/blob/Tema_1/img/tema_1/Capture008.png)
 
 ## Выводы
 Фетч
@@ -97,7 +97,7 @@
 ### 2.9. Удаление файлов, веток, локальных и удалённых репозиториев
 
 ### Результат.
-![Меню](https://github.com/Dar13lol/Software_Engineering/blob/Laba_1/png_1/2.9.png).
+![Меню](https://github.com/Davishir/Software_engineering/blob/Tema_1/img/tema_1/Capture009.png)
 
 ## Выводы
 Удалили ветку 
@@ -105,7 +105,7 @@
 ### 2.10. Отслеживание изменений в коммитах
 
 ### Результат.
-![Меню](https://github.com/Dar13lol/Software_Engineering/blob/Laba_1/png_1/2.10.png).
+![Меню](https://github.com/Davishir/Software_engineering/blob/Tema_1/img/tema_1/Capture010.png)
 
 ## Выводы
 Отслеживание
@@ -113,7 +113,7 @@
 ### 2.11. Возвращение файла к предыдущему (определенному) состоянию
 
 ### Результат.
-![Меню](https://github.com/Dar13lol/Software_Engineering/blob/Laba_1/png_1/2.11.png).
+![Меню](https://github.com/Davishir/Software_engineering/blob/Tema_1/img/tema_1/Capture011.png)
 
 ## Выводы
 Вернулись к предыдущему состоянию
@@ -121,7 +121,7 @@
 ### 2.12. Возвращение к предыдущему коммиту
 
 ### Результат.
-![Меню](https://github.com/Dar13lol/Software_Engineering/blob/Laba_1/png_1/2.12.png).
+![Меню](https://github.com/Davishir/Software_engineering/blob/Tema_1/img/tema_1/Capture012.png)
 
 ## Выводы
 Вернулись к предыдущему коммиту
@@ -129,7 +129,7 @@
 ### 2.13. Исправление коммита
 
 ### Результат.
-![Меню](https://github.com/Dar13lol/Software_Engineering/blob/Laba_1/png_1/2.13.png).
+![Меню](https://github.com/Davishir/Software_engineering/blob/Tema_1/img/tema_1/Capture013.png)
 
 ## Выводы
 Исправили коммит 
@@ -137,7 +137,7 @@
 ### 2.14. Разрешение конфликтов при слиянии
 
 ### Результат.
-![Меню](https://github.com/Dar13lol/Software_Engineering/blob/Laba_1/png_1/2.14.png).
+![Меню](https://github.com/Davishir/Software_engineering/blob/Tema_1/img/tema_1/Capture014.png)
 
 ## Выводы
 Слияние
@@ -145,7 +145,7 @@
 ### 2.15. Настройка .gitignore
 
 ### Результат.
-![Меню](https://github.com/Dar13lol/Software_Engineering/blob/Laba_1/png_1/2.15.png).
+![Меню](https://github.com/Davishir/Software_engineering/blob/Tema_1/img/tema_1/Capture015.png)
 
 ## Выводы
 Создали и добавили файл .gitignore
