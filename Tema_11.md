@@ -38,7 +38,7 @@ for _ in range(10):
 
 ```
 ### Результат.
-![Меню](https://github.com/Dar13lol/Software_Engineering/blob/Laba_11/png_11/1.png).
+![Меню](https://github.com/Davishir/Software_engineering/blob/Tema_11/img/tema_11/Capture001.png)
 
 
 ## Выводы
@@ -77,7 +77,7 @@ print("Числа Фибоначчи были записаны в файл 'f.tx
 
 ```
 ### Результат.
-![Меню](https://github.com/Dar13lol/Software_Engineering/blob/Laba_11/png_11/2.png).
+![Меню](https://github.com/Davishir/Software_engineering/blob/Tema_11/img/tema_11/Capture002.png)
 
 
 ## Выводы
